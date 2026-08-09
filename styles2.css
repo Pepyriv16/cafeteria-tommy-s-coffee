@@ -1,0 +1,37 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Adjust the top margin as needed */
+
+}
+
+h1 {
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+a {
+    display: block;
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
+/* cart.css */
+/* Agrega estilos personalizados para la página del carrito */
+
+/* Estilos para el botón de eliminar */
+.cart-item form button {
+    background-color: #ff6347; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    padding: 8px 12px; /* Ajusta el relleno */
+    border: none; /* Elimina el borde */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    border-radius: 4px; /* Agrega bordes redondeados */
+    transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
+
+    /* Ajustes adicionales según sea necesario */
+}
+
+.cart-item form button:hover {
+    background-color: #cc0000; /* Cambia el color de fondo al pasar el ratón */
+}

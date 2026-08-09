@@ -1,0 +1,19 @@
+/* Estilos específicos para checkout.php */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.success-message {
+    text-align: center;
+    font-style: 'Poppins', sans-serif;
+    padding: 20px;
+    border: 1px solid #08550cb6; /* Color verde para indicar éxito */
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    color: rgb(30, 124, 33);
+}
